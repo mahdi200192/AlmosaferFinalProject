@@ -1,32 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-24T17:41:53 EET" name="Default suite" finished-at="2024-08-24T17:41:56 EET" duration-ms="2768">
+  <suite started-at="2024-09-01T22:18:29 EET" name="Default suite" finished-at="2024-09-01T22:19:03 EET" duration-ms="33735">
     <groups>
     </groups>
-    <test started-at="2024-08-24T17:41:53 EET" name="Default test" finished-at="2024-08-24T17:41:56 EET" duration-ms="2768">
+    <test started-at="2024-09-01T22:18:29 EET" name="Default test" finished-at="2024-09-01T22:19:03 EET" duration-ms="33735">
       <class name="homePage.myTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:homePage.myTestCases@757d6814]" started-at="2024-08-24T17:41:53 EET" name="mySetup" finished-at="2024-08-24T17:41:55 EET" duration-ms="2533" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:29 EET" name="mySetup" finished-at="2024-09-01T22:18:32 EET" duration-ms="3179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="CheckContactNumber()[pri:0, instance:homePage.myTestCases@757d6814]" started-at="2024-08-24T17:41:55 EET" name="CheckContactNumber" finished-at="2024-08-24T17:41:56 EET" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckContactNumber -->
-        <test-method signature="CheckDefaultCurrency()[pri:0, instance:homePage.myTestCases@757d6814]" started-at="2024-08-24T17:41:56 EET" name="CheckDefaultCurrency" finished-at="2024-08-24T17:41:56 EET" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckDefaultCurrency -->
-        <test-method signature="CheckTheDefaultLang()[pri:0, instance:homePage.myTestCases@757d6814]" started-at="2024-08-24T17:41:56 EET" name="CheckTheDefaultLang" finished-at="2024-08-24T17:41:56 EET" duration-ms="28" status="PASS">
+        <test-method signature="CheckTheDefaultLang()[pri:1, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="CheckTheDefaultLang" finished-at="2024-09-01T22:18:33 EET" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheDefaultLang -->
-        <test-method signature="CheckTheQitafLogo()[pri:0, instance:homePage.myTestCases@757d6814]" started-at="2024-08-24T17:41:56 EET" name="CheckTheQitafLogo" finished-at="2024-08-24T17:41:56 EET" duration-ms="45" status="PASS">
+        <test-method signature="CheckDefaultCurrency()[pri:2, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="CheckDefaultCurrency" finished-at="2024-09-01T22:18:33 EET" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDefaultCurrency -->
+        <test-method signature="CheckContactNumber()[pri:3, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="CheckContactNumber" finished-at="2024-09-01T22:18:33 EET" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckContactNumber -->
+        <test-method signature="CheckTheQitafLogo()[pri:4, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="CheckTheQitafLogo" finished-at="2024-09-01T22:18:33 EET" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheQitafLogo -->
+        <test-method signature="TestHotels()[pri:5, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="TestHotels" finished-at="2024-09-01T22:18:33 EET" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHotels -->
+        <test-method signature="TestDepartureDate()[pri:6, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="TestDepartureDate" finished-at="2024-09-01T22:18:33 EET" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDepartureDate -->
+        <test-method signature="CheckLanguage()[pri:7, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:33 EET" name="CheckLanguage" finished-at="2024-09-01T22:18:34 EET" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLanguage -->
+        <test-method signature="FillHotelTab()[pri:8, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:34 EET" name="FillHotelTab" finished-at="2024-09-01T22:18:36 EET" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillHotelTab -->
+        <test-method signature="RandomlySelectTheNumberOfVistor()[pri:9, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:36 EET" name="RandomlySelectTheNumberOfVistor" finished-at="2024-09-01T22:18:42 EET" duration-ms="6017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomlySelectTheNumberOfVistor -->
+        <test-method signature="CheckThePageFullyLoaded()[pri:10, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:18:42 EET" name="CheckThePageFullyLoaded" finished-at="2024-09-01T22:19:02 EET" duration-ms="20046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThePageFullyLoaded -->
+        <test-method signature="SortItemsLowestToHighestPrice()[pri:11, instance:homePage.myTestCases@2552f2cb]" started-at="2024-09-01T22:19:02 EET" name="SortItemsLowestToHighestPrice" description="wallah jayen nshof eza asghar s3er aqal " finished-at="2024-09-01T22:19:03 EET" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortItemsLowestToHighestPrice -->
       </class> <!-- homePage.myTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
