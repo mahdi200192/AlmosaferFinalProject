@@ -178,7 +178,7 @@ public class myTestCases {
 		Assert.assertEquals(finished, ExpectedResults);
 	}
 	
-	@Test(priority = 11, description = "wallah jayen nshof eza asghar s3er aqal ")
+	@Test(priority = 11)
 
 	public void SortItemsLowestToHighestPrice() {
 
